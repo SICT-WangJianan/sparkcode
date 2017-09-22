@@ -1,4 +1,4 @@
-package com.zys
+package com.sict.spark.streaming
 
 import org.apache.spark.storage.StorageLevel
 import org.apache.spark.streaming.{Seconds, StreamingContext}

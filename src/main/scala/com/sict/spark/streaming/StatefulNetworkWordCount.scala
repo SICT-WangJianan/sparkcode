@@ -1,7 +1,7 @@
-package com.zys
+package com.sict.spark.streaming
 
-import org.apache.spark.{HashPartitioner, SparkConf}
 import org.apache.spark.streaming.{Seconds, StreamingContext}
+import org.apache.spark.{HashPartitioner, SparkConf}
 
 object StatefulNetworkWordCount {
 

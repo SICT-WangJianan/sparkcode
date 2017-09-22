@@ -1,4 +1,4 @@
-package com.zys
+package com.sict.spark.streaming
 
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.internal.Logging
