@@ -1,4 +1,4 @@
-package com.zys
+package com.sict.spark.streaming
 
 import org.apache.spark.SparkConf
 import org.apache.spark.streaming.{Seconds, StreamingContext}

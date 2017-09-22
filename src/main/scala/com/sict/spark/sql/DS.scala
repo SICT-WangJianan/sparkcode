@@ -1,7 +1,7 @@
-package com.zys
+package com.sict.spark.sql
 
-import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql.SQLContext
+import org.apache.spark.{SparkConf, SparkContext}
 
 case class Person1(name: String, age: Long)
 object DS {

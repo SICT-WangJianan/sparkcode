@@ -1,8 +1,6 @@
-package com.zys
+package com.sict.spark.sql
 
-
-import org.apache.avro.generic.GenericData.StringType
-import org.apache.spark.sql.types.{DataTypes, StringType, StructField, StructType}
+import org.apache.spark.sql.types.{DataTypes, StructField, StructType}
 import org.apache.spark.sql.{Row, SQLContext}
 import org.apache.spark.{SparkConf, SparkContext}
 
@@ -15,7 +13,6 @@ object createDF {
     val sc = new SparkContext(conf)
     //Spark SQL的入口
     val sQLContext = new SQLContext(sc)
-    import sQLContext.implicits._
     //一、DataFrame的创建
     //1.Json文件
 
